@@ -445,21 +445,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <searchBar key="tableHeaderView" contentMode="redraw" text="" id="VkD-EJ-9Cd">
-                            <rect key="frame" x="0.0" y="64" width="600" height="44"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            <textInputTraits key="textInputTraits"/>
-                            <scopeButtonTitles>
-                                <string>Title</string>
-                                <string>Title</string>
-                            </scopeButtonTitles>
-                            <connections>
-                                <outlet property="delegate" destination="GAw-Rr-5ep" id="jWB-Op-3Ke"/>
-                            </connections>
-                        </searchBar>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="authorsCell" id="egK-N4-leQ" customClass="authorsTableViewCell" customModule="quotesMinds" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="136" width="600" height="60"/>
+                                <rect key="frame" x="0.0" y="92" width="600" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="egK-N4-leQ" id="HuQ-xt-1s7">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="59"/>
@@ -524,7 +512,6 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="searchBar" destination="VkD-EJ-9Cd" id="Iu8-AF-8uT"/>
                         <outlet property="searchDisplayController" destination="1z3-52-ed7" id="JRN-Ls-mMz"/>
                     </connections>
                 </tableViewController>
@@ -532,14 +519,13 @@
                 <searchDisplayController id="1z3-52-ed7">
                     <connections>
                         <outlet property="delegate" destination="GAw-Rr-5ep" id="SCb-vY-l01"/>
-                        <outlet property="searchBar" destination="VkD-EJ-9Cd" id="PRn-cz-8sc"/>
                         <outlet property="searchContentsController" destination="GAw-Rr-5ep" id="G6o-e0-Xsy"/>
                         <outlet property="searchResultsDataSource" destination="GAw-Rr-5ep" id="pRX-Ce-bAv"/>
                         <outlet property="searchResultsDelegate" destination="GAw-Rr-5ep" id="ocG-Dn-tU1"/>
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="1630" y="1640"/>
+            <point key="canvasLocation" x="1577" y="1819"/>
         </scene>
         <!--Categories Table View Controller-->
         <scene sceneID="T13-Ns-3Vv">

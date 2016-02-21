@@ -3282,7 +3282,6 @@
 		A92B0B311C62107C00E13E74 /* icon_AddNewPeopleRow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A92B0B2E1C62107C00E13E74 /* icon_AddNewPeopleRow@2x.png */; };
 		A92B0B321C62107C00E13E74 /* icon_Xdelete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A92B0B2F1C62107C00E13E74 /* icon_Xdelete@2x.png */; };
 		A92B0B341C62414900E13E74 /* authorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92B0B331C62414800E13E74 /* authorsTableViewController.swift */; };
-		A93A2E8C5485D779AB754815 /* Pods_everyday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB280F95826076BAF9C7C3D /* Pods_everyday.framework */; };
 		A94318B51C552FB200F4AE6F /* circlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94318B41C552FB200F4AE6F /* circlesViewController.swift */; };
 		A94318B91C556EBC00F4AE6F /* categoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94318B81C556EBC00F4AE6F /* categoriesTableViewController.swift */; };
 		A94318BC1C566BEC00F4AE6F /* userModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94318BB1C566BEC00F4AE6F /* userModel.swift */; };
@@ -3327,6 +3326,7 @@
 		A9D713151C53B9A6001F30E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D713141C53B9A6001F30E5 /* Assets.xcassets */; };
 		A9D713181C53B9A6001F30E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D713161C53B9A6001F30E5 /* LaunchScreen.storyboard */; };
 		A9D713231C53B9A6001F30E5 /* quotesMindsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D713221C53B9A6001F30E5 /* quotesMindsTests.swift */; };
+		F77885A12F69BCB33BD46F4E /* Pods_quotesMinds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70CF58DA422C2C955AA3F96F /* Pods_quotesMinds.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -3340,9 +3340,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		214BA86F931203C86D769501 /* Pods-everyday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everyday.release.xcconfig"; path = "Pods/Target Support Files/Pods-everyday/Pods-everyday.release.xcconfig"; sourceTree = "<group>"; };
-		9E62CAE1ED81633EE82C0272 /* Pods-everyday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everyday.debug.xcconfig"; path = "Pods/Target Support Files/Pods-everyday/Pods-everyday.debug.xcconfig"; sourceTree = "<group>"; };
-		9FB280F95826076BAF9C7C3D /* Pods_everyday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_everyday.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48261B81D5CD4C5751D14740 /* Pods-quotesMinds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quotesMinds.release.xcconfig"; path = "Pods/Target Support Files/Pods-quotesMinds/Pods-quotesMinds.release.xcconfig"; sourceTree = "<group>"; };
+		70CF58DA422C2C955AA3F96F /* Pods_quotesMinds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quotesMinds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A902D4C41C6E10BD009FDD51 /* authors_with_images.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = authors_with_images.json; sourceTree = "<group>"; };
 		A902D4C61C6E10BD009FDD51 /* quotesDatabase.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = quotesDatabase.sqlite; sourceTree = "<group>"; };
 		A902D4C81C6E10BD009FDD51 /* a_j_liebling.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a_j_liebling.jpg; sourceTree = "<group>"; };
@@ -6633,7 +6632,7 @@
 		A94318DB1C5954ED00F4AE6F /* motivational@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "motivational@2x.jpg"; sourceTree = "<group>"; };
 		A94318DD1C5954F600F4AE6F /* wisdom@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wisdom@2x.jpg"; sourceTree = "<group>"; };
 		A99AE83B1C53D5A4000DFFFD /* logHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = logHelper.swift; sourceTree = "<group>"; };
-		A99AE8411C53D70F000DFFFD /* everyday-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "everyday-Bridging-Header.h"; sourceTree = "<group>"; };
+		A99AE8411C53D70F000DFFFD /* quotesMinds-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "quotesMinds-Bridging-Header.h"; sourceTree = "<group>"; };
 		A99AE8421C53D70F000DFFFD /* PODatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PODatabase.h; sourceTree = "<group>"; };
 		A99AE8431C53D710000DFFFD /* PODatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PODatabase.m; sourceTree = "<group>"; };
 		A99AE8451C53D942000DFFFD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -6669,6 +6668,7 @@
 		A9D7131E1C53B9A6001F30E5 /* quotesMinds.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quotesMinds.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D713221C53B9A6001F30E5 /* quotesMindsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quotesMindsTests.swift; sourceTree = "<group>"; };
 		A9D713241C53B9A6001F30E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5C1B36A065AF4A507085978 /* Pods-quotesMinds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quotesMinds.debug.xcconfig"; path = "Pods/Target Support Files/Pods-quotesMinds/Pods-quotesMinds.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -6677,7 +6677,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A99AE8461C53D942000DFFFD /* libsqlite3.tbd in Frameworks */,
-				A93A2E8C5485D779AB754815 /* Pods_everyday.framework in Frameworks */,
+				F77885A12F69BCB33BD46F4E /* Pods_quotesMinds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6691,10 +6691,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5464C5A229C3DF3646915DF9 /* Frameworks */ = {
+		146CB8814AD49E954D1FA470 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9FB280F95826076BAF9C7C3D /* Pods_everyday.framework */,
+				C5C1B36A065AF4A507085978 /* Pods-quotesMinds.debug.xcconfig */,
+				48261B81D5CD4C5751D14740 /* Pods-quotesMinds.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C0981D31CE0B9DEF5357837 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70CF58DA422C2C955AA3F96F /* Pods_quotesMinds.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -10056,7 +10065,7 @@
 				A94318C11C5683E400F4AE6F /* userDatabase.sqlite */,
 				A99AE8421C53D70F000DFFFD /* PODatabase.h */,
 				A99AE8431C53D710000DFFFD /* PODatabase.m */,
-				A99AE8411C53D70F000DFFFD /* everyday-Bridging-Header.h */,
+				A99AE8411C53D70F000DFFFD /* quotesMinds-Bridging-Header.h */,
 				A99AE8491C53F317000DFFFD /* quotesDatabaseController.swift */,
 				A99AE84B1C53F35A000DFFFD /* userDatabaseController.swift */,
 				A99AE84D1C53F43A000DFFFD /* databaseHelper.swift */,
@@ -10126,8 +10135,8 @@
 				A9D7130C1C53B9A6001F30E5 /* topQuotes */,
 				A9D713211C53B9A6001F30E5 /* everydayTests */,
 				A9D7130B1C53B9A6001F30E5 /* Products */,
-				DA3E19D2818FDD1AE86639CC /* Pods */,
-				5464C5A229C3DF3646915DF9 /* Frameworks */,
+				146CB8814AD49E954D1FA470 /* Pods */,
+				7C0981D31CE0B9DEF5357837 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -10171,15 +10180,6 @@
 			path = quotesMindsTests;
 			sourceTree = "<group>";
 		};
-		DA3E19D2818FDD1AE86639CC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9E62CAE1ED81633EE82C0272 /* Pods-everyday.debug.xcconfig */,
-				214BA86F931203C86D769501 /* Pods-everyday.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -10187,12 +10187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9D713271C53B9A6001F30E5 /* Build configuration list for PBXNativeTarget "quotesMinds" */;
 			buildPhases = (
-				709D293807F4DF46AC52E7EC /* Check Pods Manifest.lock */,
+				68CC8310BE9E70F53E695584 /* Check Pods Manifest.lock */,
 				A9D713061C53B9A6001F30E5 /* Sources */,
 				A9D713071C53B9A6001F30E5 /* Frameworks */,
 				A9D713081C53B9A6001F30E5 /* Resources */,
-				818BB2F46B0576F2912A9EBA /* Embed Pods Frameworks */,
-				37E53053A7FD7EFAB0547E96 /* Copy Pods Resources */,
+				857DC7A742D54FE28C913AC4 /* Embed Pods Frameworks */,
+				5879442AB0DE16632D4653F0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -13571,7 +13571,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		37E53053A7FD7EFAB0547E96 /* Copy Pods Resources */ = {
+		5879442AB0DE16632D4653F0 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -13583,10 +13583,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-everyday/Pods-everyday-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-quotesMinds/Pods-quotesMinds-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		709D293807F4DF46AC52E7EC /* Check Pods Manifest.lock */ = {
+		68CC8310BE9E70F53E695584 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -13601,7 +13601,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		818BB2F46B0576F2912A9EBA /* Embed Pods Frameworks */ = {
+		857DC7A742D54FE28C913AC4 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -13613,7 +13613,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-everyday/Pods-everyday-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-quotesMinds/Pods-quotesMinds-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -13772,7 +13772,7 @@
 		};
 		A9D713281C53B9A6001F30E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E62CAE1ED81633EE82C0272 /* Pods-everyday.debug.xcconfig */;
+			baseConfigurationReference = C5C1B36A065AF4A507085978 /* Pods-quotesMinds.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -13780,13 +13780,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = everyday/Info.plist;
+				INFOPLIST_FILE = quotesMinds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hacksj.quotesminds;
 				PRODUCT_NAME = quotesMinds;
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "everyday/everyday-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "quotesMinds/quotesMinds-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/lib";
 			};
@@ -13794,7 +13794,7 @@
 		};
 		A9D713291C53B9A6001F30E5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 214BA86F931203C86D769501 /* Pods-everyday.release.xcconfig */;
+			baseConfigurationReference = 48261B81D5CD4C5751D14740 /* Pods-quotesMinds.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -13802,13 +13802,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = everyday/Info.plist;
+				INFOPLIST_FILE = quotesMinds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hacksj.quotesminds;
 				PRODUCT_NAME = quotesMinds;
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "everyday/everyday-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "quotesMinds/quotesMinds-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/lib";
 			};

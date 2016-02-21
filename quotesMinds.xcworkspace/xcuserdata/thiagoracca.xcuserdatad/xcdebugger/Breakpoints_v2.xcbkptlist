@@ -9,13 +9,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "everyday/quoteModel.swift"
-            timestampString = "477232670.131264"
+            filePath = "quotesMinds/authorsTableViewController.swift"
+            timestampString = "477709899.394678"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
-            landmarkName = "getAuthorTopic(_:)"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "populateTableViewArray()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,77 +25,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "everyday/mainViewController.swift"
-            timestampString = "477144797.50658"
+            filePath = "quotesMinds/authorsTableViewController.swift"
+            timestampString = "477709899.394678"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "279"
-            endingLineNumber = "279"
-            landmarkName = "insertTop()"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "populateTableViewArray()"
             landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "everyday/authorsTableViewController.swift"
-            timestampString = "477231140.61008"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "114"
-            endingLineNumber = "114"
-            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "function signature specialization &lt;Arg[0] = Owned To Guaranteed, Arg[1] = Owned To Guaranteed&gt; of quotesMinds.authorsTableViewController.tableView (quotesMinds.authorsTableViewController)(__ObjC.UITableView, cellForRowAtIndexPath : __ObjC.NSIndexPath) -&gt; __ObjC.UITableViewCell"
-                  moduleName = "quotesMinds"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/thiagoracca/Documents/bitbucket/everyday/everyday/everyday/authorsTableViewController.swift"
-                  timestampString = "477237898.710618"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "115"
-                  endingLineNumber = "115"
-                  offsetFromSymbolStart = "3085">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "function signature specialization &lt;Arg[0] = Owned To Guaranteed, Arg[1] = Owned To Guaranteed&gt; of quotesMinds.authorsTableViewController.tableView (quotesMinds.authorsTableViewController)(__ObjC.UITableView, cellForRowAtIndexPath : __ObjC.NSIndexPath) -&gt; __ObjC.UITableViewCell"
-                  moduleName = "quotesMinds"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/thiagoracca/Documents/bitbucket/everyday/everyday/everyday/authorsTableViewController.swift"
-                  timestampString = "477237898.710822"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "115"
-                  endingLineNumber = "115"
-                  offsetFromSymbolStart = "3101">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "function signature specialization &lt;Arg[0] = Owned To Guaranteed, Arg[1] = Owned To Guaranteed&gt; of quotesMinds.authorsTableViewController.tableView (quotesMinds.authorsTableViewController)(__ObjC.UITableView, cellForRowAtIndexPath : __ObjC.NSIndexPath) -&gt; __ObjC.UITableViewCell"
-                  moduleName = "quotesMinds"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/thiagoracca/Documents/bitbucket/everyday/everyday/everyday/authorsTableViewController.swift"
-                  timestampString = "477237898.710949"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "115"
-                  endingLineNumber = "115"
-                  offsetFromSymbolStart = "3119">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

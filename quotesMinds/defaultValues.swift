@@ -62,5 +62,7 @@ struct defaultValues {
         "motivational@2x.jpg",
         "wisdom@2x.jpg"
     ]
+    
+    let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".characters.map({ String($0) })
 }
 

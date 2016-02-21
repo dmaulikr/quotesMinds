@@ -41,6 +41,55 @@ extension quotesModel {
         return arr
     }
     
+    func getAuthorsWithImageByLetter(letter: String) -> Array<AnyObject>!{
+        let arrImage : Array<String> = quotesDatabaseController.sharedInstance.getQuotesWithImages();
+        let stringToAdd = arrImage.joinWithSeparator(",");
+        let sql : String = "SELECT * FROM authors WHERE authors.id IN (\(stringToAdd)) AND name LIKE '\(letter)%'"
+        let arr : Array<AnyObject> = quotesDatabaseController.sharedInstance.performQuery(sql)
+        return arr
+    }
+    
+    func countAuthorsWithImageByLetter(letter: String) -> Int{
+        let arrImage : Array<String> = quotesDatabaseController.sharedInstance.getQuotesWithImages();
+        let stringToAdd = arrImage.joinWithSeparator(",");
+        let sql : String = "SELECT count(id) as total FROM authors WHERE authors.id IN (\(stringToAdd)) AND name LIKE '\(letter)%'"
+        let arr : Array<AnyObject> = quotesDatabaseController.sharedInstance.performQuery(sql)
+        if arr.count > 0 {
+            
+            if let arrDict : Dictionary<String,AnyObject> = arr[0] as! Dictionary<String,AnyObject> as Dictionary{
+                if let intNum : Int = arrDict["total"] as? Int {
+                    return intNum
+                }
+            }
+        }
+        return 0;
+    }
+    
+    
+    func getAuthorsWithImageByLetter(letter: String, withSearch: String) -> Array<AnyObject>!{
+        let arrImage : Array<String> = quotesDatabaseController.sharedInstance.getQuotesWithImages();
+        let stringToAdd = arrImage.joinWithSeparator(",");
+        let sql : String = "SELECT * FROM authors WHERE authors.id IN (\(stringToAdd)) AND name LIKE '\(letter)%' AND authors.name LIKE '%\(withSearch)%' ORDER BY authors.name ASC"
+        let arr : Array<AnyObject> = quotesDatabaseController.sharedInstance.performQuery(sql)
+        return arr
+    }
+    
+    func countAuthorsWithImageByLetter(letter: String, withSearch: String) -> Int{
+        let arrImage : Array<String> = quotesDatabaseController.sharedInstance.getQuotesWithImages();
+        let stringToAdd = arrImage.joinWithSeparator(",");
+        let sql : String = "SELECT count(id) as total FROM authors WHERE authors.id IN (\(stringToAdd)) AND authors.name LIKE '\(letter)%' AND authors.name LIKE '%\(withSearch)%'"
+        let arr : Array<AnyObject> = quotesDatabaseController.sharedInstance.performQuery(sql)
+        if arr.count > 0 {
+            
+            if let arrDict : Dictionary<String,AnyObject> = arr[0] as! Dictionary<String,AnyObject> as Dictionary{
+                if let intNum : Int = arrDict["total"] as? Int {
+                    return intNum
+                }
+            }
+        }
+        return 0;
+    }
+    
     func getAuthorsWithImages() -> Array<AnyObject>!{
         
         let arrImage : Array<String> = quotesDatabaseController.sharedInstance.getQuotesWithImages();
