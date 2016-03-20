@@ -4,6 +4,7 @@
 target ‘quotesMinds’ do
 
 pod 'SwiftyJSON'
+pod 'AlamofireImage', '~> 2.0'
 
 end
 

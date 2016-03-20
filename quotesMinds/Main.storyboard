@@ -62,7 +62,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="abraham_lincoln.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="58C-fq-26V">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="58C-fq-26V">
                                 <rect key="frame" x="-1" y="0.0" width="602" height="600"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nKv-Mv-k1X" userLabel="Slot 0">
@@ -144,7 +144,7 @@
                                     <segue destination="C9d-kW-Hc5" kind="presentation" identifier="selectCategories" id="CIB-xR-BsF"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="d4o-oS-u1c" userLabel="Label 1" customClass="resizableLabel">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="d4o-oS-u1c" userLabel="Label 1">
                                 <rect key="frame" x="371" y="280" width="80" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="7B5-TH-zRa"/>
@@ -153,7 +153,7 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5ZL-YF-qgt" userLabel="Label 3" customClass="resizableLabel">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5ZL-YF-qgt" userLabel="Label 3">
                                 <rect key="frame" x="259" y="448" width="80" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="nZn-xI-1Tw"/>
@@ -736,7 +736,7 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="abraham_lincoln.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qdh-jw-sVd" userLabel="face">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qdh-jw-sVd" userLabel="face">
                                         <rect key="frame" x="272" y="403" width="57" height="57"/>
                                         <color key="backgroundColor" red="1" green="0.89148239799999995" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -982,7 +982,6 @@
     </scenes>
     <resources>
         <image name="abraham_lincoln-Thumb.jpg" width="80" height="114"/>
-        <image name="abraham_lincoln.jpg" width="938" height="1334"/>
         <image name="back.jpg" width="1300" height="1125"/>
         <image name="color-c-quotation-mark.png" width="37" height="34"/>
         <image name="icon-circles.png" width="20" height="21"/>

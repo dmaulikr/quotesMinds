@@ -35,6 +35,9 @@ class mainViewController: UIViewController,UIScrollViewDelegate,quotesModel,user
     var authorName : String = ""
     
     
+  
+    
+    
     @IBAction func share(sender: AnyObject) {
         let quote : String = (self.quoteLabel?.attributedText?.string)!
         let authorName : String = self.authorName
@@ -154,9 +157,11 @@ class mainViewController: UIViewController,UIScrollViewDelegate,quotesModel,user
             titleLabel.sizeToFit()
             self.navigationItem.titleView = titleLabel
             
-            self.bg1?.image = UIImage(withAuthor: authorName)
-            self.face?.image = UIImage(withAuthor: authorName)
-            self.face?.roundCorners()
+            if(self.bg1 != nil){
+            imageHelper.sharedInstance.loadImage(authorName, onImageView: self.bg1!)
+            }
+            self.face!.image = UIImage(withAuthorThumb: authorName)
+            self.face!.roundCorners()
             
             self.faceTitle?.text = authorName
             
@@ -206,6 +211,7 @@ class mainViewController: UIViewController,UIScrollViewDelegate,quotesModel,user
             
         
     }
+   
     
     func stringFromTimeInterval(interval:NSTimeInterval) -> String {
         let ti = NSInteger(interval)

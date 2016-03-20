@@ -14,20 +14,20 @@ protocol logHelper {
 
 extension logHelper {
     func println(str: String, level: Int){
-        let className : String = " \(self))".componentsSeparatedByString(".").last!.componentsSeparatedByString(":").first!
+        //let className : String = " \(self))".componentsSeparatedByString(".").last!.componentsSeparatedByString(":").first!
         var shouldPrint = false
         if(logLevel <= level){
             shouldPrint = true
         }
         if(shouldPrint){
-            print("##  \(className) ::: level (\(logLevel)) \n  -->:{ \(str) }\n")
+          //  print("##  \(className) ::: level (\(logLevel)) \n  -->:{ \(str) }\n")
         }
     }
 
     func println(str: String){
         if(logLevel != 0){
-        let className : String = " \(self))".componentsSeparatedByString(".").last!.componentsSeparatedByString(":").first!
-            print("##  \(className) \n  -->:{ \(str) }\n")
+        //let className : String = " \(self))".componentsSeparatedByString(".").last!.componentsSeparatedByString(":").first!
+            //print("##  \(className) \n  -->:{ \(str) }\n")
         }
     }
   

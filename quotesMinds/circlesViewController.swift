@@ -130,7 +130,7 @@ class circlesViewController: UIViewController,logHelper,quotesModel,userModel {
         super.viewDidLoad()
         let imageDict : Dictionary = getQuote()
         if let imageName : String = imageDict["name"]! as String{
-            bg!.image = UIImage(withAuthor: imageName)
+            bg!.image = UIImage(withAuthorThumb: imageName)
             bg!.addDarkBlur()
         }
         
